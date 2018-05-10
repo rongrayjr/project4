@@ -8,10 +8,11 @@
 .grid-container2 {
   display: grid;
   grid-template-column: 1;
-  background-color: red;
+  background-color: maroon;
   padding: 10px;
   background-image: url("images/images (5).jpg");
   border: red;
+  background-repeat: repeat-x;
   }
 
 .grid-item {
@@ -34,9 +35,10 @@ color: Yellow;
 }
 
 	body {
-background-image:url("images/patriotic (1).jpg");
+background-image: linear-gradient(maroon, red, yellow);
   font-family: "Freestyle script";
   font-size: 20px;
+  background-repeat: repeat-x;
   }
 
   .p1 {
