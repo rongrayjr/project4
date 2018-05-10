@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: maroon;
+  padding: 10px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-column: 1;
+  background-color: red;
+  padding: 10px;
+  background-image: url("images/images (5).jpg");
+  border: red;
+  }
+
+.grid-item {
+  background-color: gold;
+  border: red;
+  padding: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-column: 1;
+  grid-template-row: 1;
+  background-color: yellow;
+  padding: 10px;
+}
+  h1 {
+color: Yellow;
+}
+
+	body {
+background-image:url("images/patriotic (1).jpg");
+  font-family: "Freestyle script";
+  font-size: 20px;
+  }
+
+  .p1 {
+  background-image:url("images/air-bubbles-diving-underwater-blow-62307.jpeg");
+  color: white;
+  }
+  
+  .background {
+	  background-image:url("images/goldstate.jpg");
+  }
+  
+  a {
+	color: black;
+  }
