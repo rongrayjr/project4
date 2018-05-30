@@ -35,15 +35,24 @@ color: Yellow;
 }
 
 	body {
-background-image: linear-gradient(maroon, red, yellow);
+		padding: auto;
+background-image: linear-gradient(maroon, red, yellow, white);
   font-family: "Freestyle script";
   font-size: 20px;
   background-repeat: repeat-x;
   }
 
+  	.body2 {
+		padding: auto;
+  font-family: "Freestyle script";
+  font-size: 20px;
+  background-repeat: repeat-x;
+  }
+  
   .p1 {
   background-image:url("images/air-bubbles-diving-underwater-blow-62307.jpeg");
-  color: white;
+  color: black;
+  font-size: 40px;
   }
   
   .background {
@@ -52,4 +61,29 @@ background-image: linear-gradient(maroon, red, yellow);
   
   a {
 	color: black;
+	font-size: 40px;
   }
+  
+.grid-container4 {
+  display: grid;
+  grid-template-column: 1;
+  padding: 10px;
+  background-image: linear-gradient(darkblue, blue, lightblue, white);
+  background-repeat: repeat-x;
+  border: red;
+  }
+  
+  p {
+padding: 10px;
+  background-image: linear-gradient(white, grey);
+  border: red;
+  background-repeat: repeat-x;
+  }
+  
+  .grid-item2 {
+  background-color: red;
+  border: red;
+  padding: auto;
+  font-size: 30px;
+  text-align: center;
+}
